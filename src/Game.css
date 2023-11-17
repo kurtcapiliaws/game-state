@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  transition: background-color 0.5s ease;
+}
+
+.random-number {
+  color: #fff;
+}
+
+.generate-button {
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.2);
+
+}
